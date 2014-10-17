@@ -1,0 +1,47 @@
+h1{color:darkblue;text-align:center;border: 3px solid #6495ED;}
+body {background-color:#66FF66;}
+img{height:500px;width:750px;}
+#navbar{
+	height: 500px;
+	width: 400px;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #787878 ;
+	float:right;
+	margin-top:100px;
+	position:fixed;
+	float:right;
+	clear:both;
+	margin-left:930px;
+	display:inline-block;
+
+}
+#navbar li {
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #6495ED;
+	height:23.7%;
+	width:98%;
+	list-style-type:none;
+	margin: 2px 2px 2px 2px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
