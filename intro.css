@@ -30,11 +30,11 @@
 }
 body {background-color:#66FF66}
 a{color:#FFFFFF;text-decoration:none;}
-a:hover{color:black;}
+a:hover{color:#6495ED;}
 h1{color:darkblue;text-align:center;border:7px solid black;background-color:#A8A8A8;font-size:50px;}
 img{
-    margin-left:75px;height:375px;width:700px;border:5px solid black;-webkit-animation: spin 3s infinite linear;
-    animation: spin 3s infinite linear;margin-top:200px;
+    margin-left:75px;height:375px;width:600px;border:5px solid black;-webkit-animation: spin 3s infinite linear;
+    animation: spin 3s infinite linear;margin-top:150px;
 }
 @-webkit-keyframes spin {
     100% { -webkit-transform: rotate(180deg); }
