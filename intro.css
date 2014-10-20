@@ -24,6 +24,8 @@
 	list-style-type:none;
 	margin: 2px 2px 2px 2px;
     transition: all .8s ease;
+    text-align:center;
+    font-size:48px;
 	
 }
 body {background-color:#66FF66}
@@ -31,8 +33,23 @@ a{color:#FFFFFF;text-decoration:none;}
 a:hover{color:black;}
 h1{color:darkblue;text-align:center;border:7px solid black;background-color:#A8A8A8;font-size:50px;}
 img{
-    margin-left:75px;height:375px;width:700px;
+    margin-left:75px;height:375px;width:700px;border:5px solid black;-webkit-animation: spin 3s infinite linear;
+    animation: spin 3s infinite linear;margin-top:200px;
 }
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(180deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(180deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(180deg);
+        -o-transform:rotate(180deg);
+        transform:rotate(180deg);
+    }
+}
+
 #navbar li:hover{
     background-color:#3333CC;
 }
