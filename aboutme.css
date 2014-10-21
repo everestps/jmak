@@ -35,7 +35,7 @@ img{height:500px;width:750px;border:5px solid black;margin-left:50px;}
     background-color:#3333CC;
 }
 a{color:#FFFFFF;text-decoration:none;}
-ol li{border:5px solid black;background-color:#888888;font-size:16px;margin-right:450px;border-radius:10px;}
+ol li{border:5px solid black;background-color:#888888;font-size:16px;margin-right:450px;border-radius:10px;list-style-type:none;}
 div{margin:4px 4px 4px 4px;}
 a:hover{color:#6495ED;}
 
