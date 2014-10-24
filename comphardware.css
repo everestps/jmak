@@ -33,3 +33,8 @@ a{color:#FFFFFF;text-decoration:none;}
 body {border:15px solid #66FF66;background-image:url("http://i1.sndcdn.com/artworks-000048910692-j1m7q4-original.jpg?30a2558");}
 a:hover{color:#6495ED;}
 h1{color: darkblue;text-align:center;border:7px solid black;background-color:#A8A8A8;font-size:50px;text-shadow: 5px 5px 3px #00FF00;margin-top:10px;}
+table{background-color:#A8A8A8;border:10px solid black;border-radius:20px;width:775px;margin-left:45px;}
+table th{font-size:40px;}
+table td img{height:250px;width:250px;}
+table td h2{margin-left:38px;}
+table td{font-size:30px;border:4px solid black;}
