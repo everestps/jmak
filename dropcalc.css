@@ -1,1 +1,22 @@
-body{background-color: #9999FF;}
+body{text-align:center;background-image:url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSI3Ocm5VXU5DONnBeDDBwbTskQYN0CuOvnTZDiweeJZp4sN5V-OQ");margin-top:100px;border:10px solid #336666;}
+
+p{background-color:darkblue;border:2px solid black;width:250px;margin-left:550px;}
+
+h1{border:10px solid black;text-shadow: 2px 2px 2px #0000CC;}
+#Answer{background-color:#00FF00;}
+h5{background-color:#336666;width:500px;margin-left:420px}
+div, div{background-color:gray;}
+@-webkit-keyframes spin {
+    100% { -webkit-transform: rotate(180deg); }
+}
+@-moz-keyframes spin {
+    100% { -moz-transform: rotate(180deg); }
+}
+@keyframes spin {
+    100% {
+        -moz-transform:rotate(180deg);
+        -o-transform:rotate(180deg);
+        transform:rotate(180deg);
+    }
+}
+.spin{-webkit-animation: spin 3s infinite linear;margin-top:100px;margin-bottom:100px;}
