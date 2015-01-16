@@ -18,13 +18,13 @@
 	color: #ffffff;
 	border-radius: 5px 5px;
 	background-color: #6495ED;
-	height:23.6%;
+	height:15.3%;
 	width:98%;
 	list-style-type:none;
 	margin: 2px 2px 2px 2px;
-    transition: all .8s ease;
-    text-align:center;
-    font-size:45px;
+	transition: all .8s ease;
+	text-align:center;
+	font-size:30px;
 	
 }
 body {border:15px solid #66FF66;background-image:url("http://i1.sndcdn.com/artworks-000048910692-j1m7q4-original.jpg?30a2558");}
