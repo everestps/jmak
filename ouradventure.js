@@ -38,7 +38,7 @@ display.src = imgArray[imgSpot];
 textPrint = "Choose a Path!";
 
 var Button1 = document.getElementById("myBtn1");
-var Button2 = document.getElementById("myBtn2");//declaring our two buttons that are                                                              going to be used
+var Button2 = document.getElementById("myBtn2");//declaring our two buttons that are used throughout the game                                                            going to be used
 
 function function1() {
   console.log(imgSpot);
@@ -215,7 +215,7 @@ document.getElementById("reset").addEventListener("click", function2);
 
  function function2() {
  if(this.id === "reset"){
-                    imgSpot = 0;
+                    imgSpot = 0;//reset button brings back the first image which is at imgSpot 0 (starts game all over)
                     display.src =imgArray[imgSpot];
    document.getElementById('console').innerHTML = " Lets try this again, you are confronted with two paths. Option one: go left or option two: go right.";
               
