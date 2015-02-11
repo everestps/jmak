@@ -62,7 +62,7 @@ function function1() {
             if(this.id === "myBtn2"){
                     imgSpot = 7;
                     display.src =imgArray[imgSpot];
-              document.getElementById('console').innerHTML = " You knock out the orc guard and take his keys, unfortunately the situation escalated quickly. Who knew Orcs where heavily armed? What will you do? Option 1: Flee OR Option 2: Fight.";
+              document.getElementById('console').innerHTML = " You knock out the orc guard and take his keys, unfortunately the situation escalated quickly. Who knew Orcs were heavily armed? What will you do? Option 1: Flee OR Option 2: Fight.";
            }
                 else{
                     imgSpot = 15;
