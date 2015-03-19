@@ -1,0 +1,87 @@
+<!--
+To change this template use Tools | Templates.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DuelingGunmen</title>
+    <link rel="stylesheet" type="text/css" href="duelingGunmen.css">
+</head>
+<body>
+    <div id="navbar" style="right:60px; top:140px;">
+	                <li><a href="index.html">Intro</a></li>
+					<li><a href="aboutme.html">About Me!</a></li>
+					<li><a href="htmlandcsspage.html">What is HTML and CSS?</a></li>
+					<li><a href="comphardware.html">Computer Hardware</a></li>
+					<li><a href="calc.html">Calculator</a></li>
+					<li><a href="ouradventure_1.html">A Mysterious Quest</a></li>
+	</div>
+    <h1 id="header">The Dueling Gunmen</h1>
+<!--Game music-->
+    <audio id="gameMusic" loop>
+        <source src="gameMusic.mp3" type=audio/mpeg>
+    </audio>
+<!--Game sound Effects-->
+    <audio id="gameStartEfx">
+        <source src="gameStartEfx.ogg" type="audio/ogg">
+    </audio>
+    <audio id="gameOverEfx" >
+        <source src="gameOverEfx.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="shootingEfx">
+        <source src="shootingEfx.wav" type="audio/wav">
+    </audio>
+    <audio id="hitEfx">
+        <source src="hitEfx.wav" type="audio/wav">
+    </audio>
+    <img id="soldierImg" src="http://www.thinkvector.com/wp-content/uploads/2013/02/army-with-gun-TN-300x220.png">
+    <button id="button" type="button" onclick="startButton()">Click to Start Game</button>
+    <button id="mute" type="button" onclick="mute()" style="top:550px; left:860px"><b>Mute Music</b></button>
+    <button id="unMute" type="button" onclick="unMute()" style="top:550px; left:955px"><b>Unmute Music</b></button>
+    <form method="link" action="https://imagine-july.codio.io/w5.html">
+        <input type="submit" value="Reset" id="resetButton" style="right:100px;top:560px;" >
+    </form>
+    <div id="player1" style="left: 310px; top: 215px;">
+        <p>1</p>
+    </div>
+    <div id="player2" style = "left:1000px; top: 215px;"> <!--right:310px;-->
+        <p>2</p>
+    </div>
+    <div id="instructions" style="top:175px; left:180px">
+        <h2>How to play:</h2>
+        <h3>Player1 - Q to go up, A to go down, S to shoot.<div>Player2 - P to go up, L to go down, K to shoot.</div>*Each player has 3 lives!</h3>
+    </div>
+    <div id="note" style="top:525px; right:195px">
+        <h4>*Note: This game requires 2 players!</h4>
+    </div>
+    <div id="note2" style="top:525px; left:150px">
+        <h4>*Turn on speakers for sound effects and music!</h4>
+    </div>
+    <div id="note3" style="top:550px; left:550px">
+        <h4>Music: Fire Emblem - Together We Ride</h4>
+    </div>
+    <div id="p1Wins" style="top:40px; left:500px;">
+        <div>Player 1 Wins! Click Reset!</div>
+    </div>
+    <div id="p2Wins" style="top:40px; left:500px;">
+        <div>Player 2 Wins! Click Reset!</div>
+    </div>
+    <!--Add scoreboard div here-->
+    
+ <!--Add lives(3) div here-->
+    <div id="lives" style="top:540px; left:185px;">Lives</div>
+    <div id="livesA" style="top:480px">
+        <h5>P1:</h5>
+    </div>
+    <div id="livesB" style="left:300px; top:480px;">
+        <h5>P2:</h5>
+    </div>
+    <div id="lives1" style="left:85px; top:567px;"></div>
+    <div id="lives2" style="left:115px; top:567px;"></div>
+    <div id="lives3" style="left:145px; top:567px;"></div>
+    <div id="lives4" style="left:370px; top:567px;"></div>
+    <div id="lives5" style="left:400px; top:567px;"></div>
+    <div id="lives6" style="left:430px; top:567px;"></div>
+    <script src="duelingGunmen.js"></script>
+</body>
+</html>
